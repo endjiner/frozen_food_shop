@@ -1,0 +1,55 @@
+$font-family-sans-serif: 'Poppins', sans-serif;
+$font-size-base: 0.95rem;
+$line-height-base: 1.6;
+
+$primary:    #2196f3;
+$secondary:  #4caf50;
+$success:    #66bb6a;
+$info:       #29b6f6;
+$warning:    #ffca28;
+$danger:     #ef5350;
+$light:      #f5f5f5;
+$dark:       #263238;
+
+$body-bg:    #f9fafb;
+$body-color: #212121;
+
+$gray-100: #f1f8f9;
+$gray-200: #e0f2f1;
+$gray-300: #c8e6c9;
+$gray-400: #b2dfdb;
+$gray-500: #80cbc4;
+$gray-600: #4db6ac;
+$gray-700: #26a69a;
+$gray-800: #00897b;
+$gray-900: #00695c;
+
+$min-contrast-ratio: 2;
+$border-radius: 0.75rem;
+$border-radius-sm: 0.5rem;
+$border-radius-lg: 1rem;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: 0.25rem,
+  2: 0.5rem,
+  3: 1rem,
+  4: 1.5rem,
+  5: 3rem
+);
+
+$box-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+$box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+$box-shadow-lg: 0 6px 20px rgba(0, 0, 0, 0.1);
+
+$input-border-radius: $border-radius;
+$btn-border-radius: $border-radius;
+$card-border-radius: $border-radius-lg;
+$modal-content-border-radius: $border-radius-lg;
+
+$primary-hover: darken($primary, 7%);
+$secondary-hover: darken($secondary, 7%);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "bootstrap/scss/bootstrap";
